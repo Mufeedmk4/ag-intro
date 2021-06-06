@@ -1,11 +1,10 @@
 # Instructions
 
-This will be the second commit
-This will be the third commit
+Do 3 back ticks then type in bash.
+Then run git clone (Website). Click enter
+Then run cd ag-intro
+Finally run 'make'
 # ag-intro
-
-This will be the second commit
-This will be the third commit
 
 ## Requirements:
 
