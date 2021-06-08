@@ -14,5 +14,6 @@ Finally run 'make'
 ```bash
 git clone https://github.com/mufeedmk4/ag-intro
 cd ag-intro
+conda env create --name=more-map-and-call --file=env.yaml
 make
 ```
