@@ -1,4 +1,7 @@
-file*.txt
+# input
 genome.gtf
 test.paired_end.sorted.bam
-*.log
+# logs
+*.out
+#results
+counts.txt*
