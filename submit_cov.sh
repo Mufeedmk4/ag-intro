@@ -1,3 +1,6 @@
+all:
+download_data featureCounts
+
 #!/bin/bash
 
 #SBATCH --job-name=featurecounts
