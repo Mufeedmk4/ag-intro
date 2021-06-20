@@ -1,0 +1,55 @@
+RNA-Seq QC report
+-----------------------------------
+
+>>>>>>> Input
+
+    bam file = RAP1_UNINDUCED_REP2.markdup.sorted.bam
+    gff file = genome_gfp.gtf
+    counting algorithm = uniquely-mapped-reads
+    protocol = strand-specific-reverse
+    5'-3' bias region size = 100
+    5'-3' bias number of top transcripts = 1000
+
+
+>>>>>>> Reads alignment
+
+    reads aligned  = 95,926
+    total alignments = 98,433
+    secondary alignments = 2,507
+    non-unique alignments = 4,850
+    aligned to genes  = 80,363
+    ambiguous alignments = 11
+    no feature assigned = 13,209
+    not aligned = 0
+
+
+>>>>>>> Reads genomic origin
+
+    exonic =  80,363 (85.88%)
+    intronic = 46 (0.05%)
+    intergenic = 13,163 (14.07%)
+    overlapping exon = 7,041 (7.52%)
+
+
+>>>>>>> Transcript coverage profile
+
+    5' bias = 0.5
+    3' bias = 0.5
+    5'-3' bias = 0.94
+
+
+>>>>>>> Junction analysis
+
+    reads at junctions = 692
+
+    GGTA : 37.28%
+    AGGT : 12.57%
+    TGGT : 9.83%
+    ATCG : 6.21%
+    CTGA : 5.92%
+    AGTT : 3.32%
+    TCCC : 2.17%
+    GGAG : 2.17%
+    TCAT : 1.45%
+    GGAA : 1.01%
+    TTAT : 0.87%

@@ -1,0 +1,51 @@
+[2021-06-20 17:04:57.663] [jointLog] [info] setting maxHashResizeThreads to 2
+[2021-06-20 17:04:57.663] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-20 17:04:57.663] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-06-20 17:04:57.663] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-06-20 17:04:57.663] [jointLog] [info] parsing read library format
+[2021-06-20 17:04:57.664] [jointLog] [info] There is 1 library.
+[2021-06-20 17:04:57.713] [jointLog] [info] Loading pufferfish index
+[2021-06-20 17:04:57.714] [jointLog] [info] Loading dense pufferfish index.
+[2021-06-20 17:04:57.723] [jointLog] [info] done
+[2021-06-20 17:04:57.723] [jointLog] [info] Index contained 126 targets
+[2021-06-20 17:04:57.723] [jointLog] [info] Number of decoys : 1
+[2021-06-20 17:04:57.723] [jointLog] [info] First decoy index : 125 
+[2021-06-20 17:04:58.072] [fileLog] [info] 
+At end of round 0
+==================
+Observed 49969 total fragments (49969 in most recent round)
+
+[2021-06-20 17:04:58.047] [jointLog] [info] Thread saw mini-batch with a maximum of 0.60% zero probability fragments
+[2021-06-20 17:04:58.059] [jointLog] [info] Thread saw mini-batch with a maximum of 0.70% zero probability fragments
+[2021-06-20 17:04:58.071] [jointLog] [info] Computed 87 rich equivalence classes for further processing
+[2021-06-20 17:04:58.071] [jointLog] [info] Counted 39330 total reads in the equivalence classes 
+[2021-06-20 17:04:58.073] [jointLog] [warning] 0.0120074% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 22.
+
+
+[2021-06-20 17:04:58.074] [jointLog] [info] Number of mappings discarded because of alignment score : 2473
+[2021-06-20 17:04:58.074] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 2602
+[2021-06-20 17:04:58.074] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 1817
+[2021-06-20 17:04:58.074] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 0
+[2021-06-20 17:04:58.074] [jointLog] [warning] Only 39330 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2021-06-20 17:04:58.074] [jointLog] [info] Mapping rate = 78.7088%
+
+[2021-06-20 17:04:58.074] [jointLog] [info] finished quantifyLibrary()
+[2021-06-20 17:04:58.079] [jointLog] [info] Starting optimizer
+[2021-06-20 17:04:58.081] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-20 17:04:58.081] [jointLog] [info] iteration = 0 | max rel diff. = 313.393
+[2021-06-20 17:04:58.088] [jointLog] [info] iteration = 100 | max rel diff. = 0
+[2021-06-20 17:04:58.088] [jointLog] [info] Finished optimizer
+[2021-06-20 17:04:58.088] [jointLog] [info] writing output 
+
+[2021-06-20 17:04:58.101] [jointLog] [info] Computing gene-level abundance estimates
+[2021-06-20 17:04:58.115] [jointLog] [warning] Feature has no GFF ID
+[2021-06-20 17:04:58.115] [jointLog] [warning] Feature has no GFF ID
+[2021-06-20 17:04:58.115] [jointLog] [info] There were 124 transcripts mapping to 124 genes
+[2021-06-20 17:04:58.115] [jointLog] [info] NOTE: We recommend using tximport (https://bioconductor.org/packages/release/bioc/html/tximport.html) for aggregating transcript-level salmon abundance estimates to the gene level.  It is more versatile, exposes more features, and allows considering multi-sample information during aggregation.
+[2021-06-20 17:04:58.116] [jointLog] [warning] couldn't find transcript named [Gfp_transgene_gene] in transcript <-> gene map; returning transcript as it's own gene
+[2021-06-20 17:04:58.116] [jointLog] [info] Aggregating expressions to gene level
+[2021-06-20 17:04:58.118] [jointLog] [info] done

@@ -1,0 +1,68 @@
+----------------------------------------------------
+                                        ,--./,-.
+        ___     __   __   __   ___     /,-._.--~\
+  |\ | |__  __ /  ` /  \ |__) |__         }  {
+  | \| |       \__, \__/ |  \ |___     \`-._,-`-,
+                                        `._,._,'
+  nf-core/rnaseq v3.2
+----------------------------------------------------
+
+Run Name: mad_booth
+
+## nf-core/rnaseq execution completed successfully! ##
+
+
+
+
+The workflow was completed at 2021-06-20T17:13:07.287-05:00 (duration: 9m 33s)
+
+The command used to launch the workflow was as follows:
+
+  nextflow run nf-core/rnaseq -profile test,utd_sysbio
+
+
+
+Pipeline Configuration:
+-----------------------
+ - revision: master
+ - runName: mad_booth
+ - containerEngine: singularity
+ - launchDir: /scratch/mmk160130/ag-intro
+ - workDir: /scratch/mmk160130/ag-intro/work
+ - projectDir: /home/mmk160130/.nextflow/assets/nf-core/rnaseq
+ - userName: mmk160130
+ - profile: test,utd_sysbio
+ - configFiles: /home/mmk160130/.nextflow/assets/nf-core/rnaseq/nextflow.config
+ - input: https://raw.githubusercontent.com/nf-core/test-datasets/rnaseq/samplesheet/v3.1/samplesheet_test.csv
+ - umitools_bc_pattern: NNNN
+ - fasta: https://github.com/nf-core/test-datasets/raw/rnaseq/reference/genome.fa
+ - gtf: https://github.com/nf-core/test-datasets/raw/rnaseq/reference/genes.gtf.gz
+ - gff: https://github.com/nf-core/test-datasets/raw/rnaseq/reference/genes.gff.gz
+ - transcript_fasta: https://github.com/nf-core/test-datasets/raw/rnaseq/reference/transcriptome.fasta
+ - additional_fasta: https://github.com/nf-core/test-datasets/raw/rnaseq/reference/gfp.fa.gz
+ - star_index: https://github.com/nf-core/test-datasets/raw/rnaseq/reference/star.tar.gz
+ - hisat2_index: https://github.com/nf-core/test-datasets/raw/rnaseq/reference/hisat2.tar.gz
+ - rsem_index: https://github.com/nf-core/test-datasets/raw/rnaseq/reference/rsem.tar.gz
+ - salmon_index: https://github.com/nf-core/test-datasets/raw/rnaseq/reference/salmon.tar.gz
+ - pseudo_aligner: salmon
+ - config_profile_name: Test profile
+ - config_profile_description: Minimal test dataset to check pipeline function
+ - config_profile_contact: Edmund Miller(@emiller88)
+ - config_profile_url: http://docs.oithpc.utdallas.edu/
+ - max_cpus: 2
+ - max_memory: 6 GB
+ - max_time: 6h
+ - Date Started: 2021-06-20T17:03:34.172-05:00
+ - Date Completed: 2021-06-20T17:13:07.287-05:00
+ - Pipeline script file path: /home/mmk160130/.nextflow/assets/nf-core/rnaseq/main.nf
+ - Pipeline script hash ID: 366f959333ed0b1d5eaec968ca3d5f19
+ - Pipeline repository Git URL: https://github.com/nf-core/rnaseq
+ - Pipeline repository Git Commit: b3ff92bc54363faf17d820689a8e9074ffd99045
+ - Pipeline Git branch/tag: master
+ - Nextflow Version: 21.04.1
+ - Nextflow Build: 5556
+ - Nextflow Compile Timestamp: 14-05-2021 15:20 UTC
+
+--
+nf-core/rnaseq
+https://github.com/nf-core/rnaseq

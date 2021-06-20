@@ -1,0 +1,8 @@
+pdf("RAP1_UNINDUCED_REP1.splice_events.pdf")
+events=c(0.0,57.48031496062992,39.37007874015748)
+pie(events,col=c(2,3,4),init.angle=30,angle=c(60,120,150),density=c(70,70,70),main="splicing events",labels=c("partial_novel 0%","complete_novel 57%","known 39%"))
+dev.off()
+pdf("RAP1_UNINDUCED_REP1.splice_junction.pdf")
+junction=c(0.0,96.22641509433963,3.7735849056603774)
+pie(junction,col=c(2,3,4),init.angle=30,angle=c(60,120,150),density=c(70,70,70),main="splicing junctions",labels=c("partial_novel 0%","complete_novel 96%","known 4%"))
+dev.off()

@@ -1,0 +1,2 @@
+2021-06-20 17:03:34	9m 37s	mad_booth	OK	b3ff92bc54363faf17d820689a8e9074ffd99045	d4fcf58b-6fbd-47e9-855a-7e18798f253f	nextflow run nf-core/rnaseq -profile test,utd_sysbio
+2021-06-20 18:02:42	-	mighty_stonebraker	-	0fcbb0ac491ecb8a80ef879c4f3dad5f869021f9	0d7decc8-4b28-44af-a606-8bda8762bc3f	nextflow run nf-core/rnaseq -r 3.1 -profile utd_sysbio -params-file nf-params.json
