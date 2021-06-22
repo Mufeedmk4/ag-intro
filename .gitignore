@@ -5,3 +5,7 @@ test.paired_end.sorted.bam
 *.out
 #results
 counts.txt*
+work/
+data/
+results/
+.nextflow*
